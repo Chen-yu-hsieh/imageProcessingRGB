@@ -1,0 +1,115 @@
+/*
+
+Vivado v2016.1 (64-bit)
+SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+Process ID: 23688
+
+Current time: 	11/27/21 6:14:28 AM GMT+08:00
+Time zone: 	GMT+08:00 (GMT+08:00)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1600x900
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=PMingLiU,name=·s²Ó©úÅé,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	D:/Xilinx2016.1/Vivado/2016.1/tps/win64/jre
+
+User name: 	USER
+User home directory: C:/Users/USER
+User working directory: C:/Users/USER/Desktop/ImageProcessingRGB
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+RDI Base root directory: D:/Xilinx2016.1/Vivado
+RDI Data directory: D:/Xilinx2016.1/Vivado/2016.1/data
+RDI Bin directory: D:/Xilinx2016.1/Vivado/2016.1/bin
+
+Vivado preferences path: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2016.1/vivado.ini
+Vivado layouts directory: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2016.1/layouts
+
+GUI allocated memory:	215 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 487 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\USER\Desktop\ImageProcessingRGB\ImageProcessingRGB.xpr. Version: Vivado v2016.1 
+// bL:g (cv:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 43 MB (+42155kb) [00:00:06]
+// [Engine Memory]: 436 MB (+306055kb) [00:00:06]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 470 MB (+12736kb) [00:00:07]
+// [GUI Memory]: 51 MB (+6220kb) [00:00:08]
+// [GUI Memory]: 55 MB (+1374kb) [00:00:09]
+// [GUI Memory]: 60 MB (+2932kb) [00:00:09]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/USER/Desktop/ImageProcessingRGB/ImageProcessingRGB.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/USER/Desktop/ImageProcessingRGB'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx2016.1/Vivado/2016.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 487 MB. GUI used memory: 37 MB. Current time: 11/27/21 6:14:29 AM GMT+08:00
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 500 MB (+6506kb) [00:00:10]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: ImageProcessingRGB; location: C:/Users/USER/Desktop/ImageProcessingRGB; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 807.016 ; gain = 118.297 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 527 MB (+2231kb) [00:00:14]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 37 seconds
+selectTab((HResource) null, (HResource) null, "Reports", 3); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "div_gen_0_synth_1 ; div_gen_0 ; synth_design Complete! ;  ;  ;  ;  ;  ;  ; 201 ; 597 ; 0 ; 0 ; 0 ; Wed Nov 17 07:24:53 GMT+08:00 2021 ; 00:00:51 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7z020clg484-1 ; Vivado Synthesis Defaults", 4, "div_gen_0_synth_1", 0, false); // W:as (JViewport:JComponent, cv:JFrame)
+// PAPropertyPanels.initPanels (div_gen_0_synth_1) elapsed time: 0.5s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "outputBuffer_synth_1 ; outputBuffer ; synth_design Complete! ;  ;  ;  ;  ;  ;  ; 35 ; 69 ; 0 ; 0 ; 0 ; Wed Nov 17 07:15:59 GMT+08:00 2021 ; 00:01:40 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7z020clg484-1 ; Vivado Synthesis Defaults", 3, "outputBuffer_synth_1", 0, false); // W:as (JViewport:JComponent, cv:JFrame)
+// [Engine Memory]: 557 MB (+3711kb) [00:00:57]
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "Out-of-Context Module Runs ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 2, "Out-of-Context Module Runs", 0, true); // W:as (JViewport:JComponent, cv:JFrame) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2016) ; xc7z020clg484-1 ; Default settings for Implementation.", 1, "impl_1", 0, false); // W:as (JViewport:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 557 MB. GUI used memory: 41 MB. Current time: 11/27/21 6:15:18 AM GMT+08:00
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 22, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+selectButton("PAResourceQtoS.RunImplementation_THERE_NO_NETLIST_AVAILABLE_OK_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 66 MB (+3158kb) [00:01:03]
+// Tcl Message: [Sat Nov 27 06:15:22 2021] Launched synth_1... Run output will be captured here: C:/Users/USER/Desktop/ImageProcessingRGB/ImageProcessingRGB.runs/synth_1/runme.log [Sat Nov 27 06:15:22 2021] Launched impl_1... Run output will be captured here: C:/Users/USER/Desktop/ImageProcessingRGB/ImageProcessingRGB.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+// [GUI Memory]: 70 MB (+724kb) [00:01:43]
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 74 MB (+621kb) [00:02:13]
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 79 MB (+586kb) [00:02:50]
+// TclEventType: RUN_COMPLETED

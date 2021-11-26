@@ -1,0 +1,93 @@
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx2016.1/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto 6776d0d4d7f84b90b534a8b5077e35cc --debug typical --relax --mt 2 -L xil_defaultlib -L xpm -L xbip_utils_v3_0_6 -L axi_utils_v2_0_2 -L xbip_pipe_v3_0_2 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_2 -L xbip_bram18k_v3_0_2 -L mult_gen_v12_0_11 -L floating_point_v7_0_12 -L xbip_dsp48_mult_v3_0_2 -L xbip_dsp48_multadd_v3_0_2 -L div_gen_v5_1_10 -L fifo_generator_v13_1_0 -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-597] element index -1 into num_read_words_dc is out of bounds [C:/Users/USER/Desktop/ImageProcessingRGB/ImageProcessingRGB.ip_user_files/ipstatic/fifo_generator_v13_1_0/simulation/fifo_generator_vlog_beh.v:8054]
+WARNING: [VRFC 10-597] element index -1 into num_write_words_dc is out of bounds [C:/Users/USER/Desktop/ImageProcessingRGB/ImageProcessingRGB.ip_user_files/ipstatic/fifo_generator_v13_1_0/simulation/fifo_generator_vlog_beh.v:8104]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package std.textio
+Compiling package xbip_utils_v3_0_6.xbip_utils_v3_0_6_pkg
+Compiling package div_gen_v5_1_10.div_gen_v5_1_10_viv_comp
+Compiling package xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv_comp
+Compiling package axi_utils_v2_0_2.axi_utils_v2_0_2_pkg
+Compiling package ieee.math_real
+Compiling package axi_utils_v2_0_2.global_util_pkg
+Compiling package axi_utils_v2_0_2.axi_utils_comps
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xbip_bram18k_v3_0_2.xbip_bram18k_v3_0_2_pkg
+Compiling package div_gen_v5_1_10.div_gen_pkg
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package div_gen_v5_1_10.pkg_addsub
+Compiling module xil_defaultlib.RGB2Gray
+Compiling module xil_defaultlib.LineBuffer
+Compiling module xil_defaultlib.imageControl
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity div_gen_v5_1_10.c_addsub_lut6 [\c_addsub_lut6(c_width=9,c_add_m...]
+Compiling architecture synth of entity div_gen_v5_1_10.c_addsub_viv [\c_addsub_viv(c_a_width=9,c_b_wi...]
+Compiling architecture virtex of entity div_gen_v5_1_10.addsubreg_v [\addsubreg_v(c_bus_width=9,c_ain...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture rtl of entity div_gen_v5_1_10.c_addsub_lut6 [\c_addsub_lut6(c_width=9,c_add_m...]
+Compiling architecture synth of entity div_gen_v5_1_10.c_addsub_viv [\c_addsub_viv(c_a_width=9,c_b_wi...]
+Compiling architecture virtex of entity div_gen_v5_1_10.addsubreg_v [\addsubreg_v(c_bus_width=9,c_has...]
+Compiling architecture virtex of entity div_gen_v5_1_10.dividervdc_v [\dividervdc_v(bus_num=16,bus_div...]
+Compiling architecture synth of entity div_gen_v5_1_10.bip_sdivider_synth [\bip_sdivider_synth(c_xdevicefam...]
+Compiling architecture synth of entity div_gen_v5_1_10.div_gen_synth [\div_gen_synth(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_pipe_v3_0_2.xbip_pipe_v3_0_2_viv [\xbip_pipe_v3_0_2_viv(c_latency=...]
+Compiling architecture synth of entity div_gen_v5_1_10.div_gen_v5_1_10_viv [\div_gen_v5_1_10_viv(c_xdevicefa...]
+Compiling architecture xilinx of entity div_gen_v5_1_10.div_gen_v5_1_10 [\div_gen_v5_1_10(c_xdevicefamily...]
+Compiling architecture div_gen_0_arch of entity xil_defaultlib.div_gen_0 [div_gen_0_default]
+Compiling module xil_defaultlib.conv
+Compiling module fifo_generator_v13_1_0.fifo_generator_v13_1_0_bhv_ver_s...
+Compiling module fifo_generator_v13_1_0.fifo_generator_v13_1_0_bhv_ver_p...
+Compiling module fifo_generator_v13_1_0.fifo_generator_v13_1_0_CONV_VER(...
+Compiling module fifo_generator_v13_1_0.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_1_0.fifo_generator_v13_1_0(C_COMMON_...
+Compiling module xil_defaultlib.outputBuffer
+Compiling module xil_defaultlib.imageProcessTop
+Compiling module xil_defaultlib.tb
+WARNING: [XSIM 43-3373] "C:/Users/USER/Desktop/ImageProcessingRGB/ImageProcessingRGB.srcs/sim_1/new/tb.v" Line 67. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/USER/Desktop/ImageProcessingRGB/ImageProcessingRGB.srcs/sim_1/new/tb.v" Line 74. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+WARNING: [XSIM 43-3373] "C:/Users/USER/Desktop/ImageProcessingRGB/ImageProcessingRGB.srcs/sim_1/new/tb.v" Line 81. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
